@@ -9,5 +9,5 @@ emotion_mlp.ipynb provides code for MLP evaluations based on preprocessed data. 
  
  Some pretrained models are provided in models folder. 3D CNN models are not uploaded because of GitHub memory restrictions.
  
- For any dataset evaluation, dataset folder should arranged as shown in the dataset folder.
+ For any dataset evaluation, dataset should arranged as shown in the dataset folder.
 
