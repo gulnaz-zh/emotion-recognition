@@ -56,17 +56,14 @@ base_model = km.load_model("models/pretrainedVGG16.hdf5")
 # base_model.summary()
 print('Model loaded.')
 
-for layer in base_model.layers[:-1]:
+for layer in base_model.layers[:-2]:
 	layer.trainable = False
 
 # Create the model
 model = Sequential()
-for layer in base_model.layers[:-1]: # go through until last layer
+for layer in base_model.layers[:-2]: # go through until last layer
 	model.add(layer)
 
-model.add(Flatten())
-model.add(Dense(1024, activation='relu'))
-model.add(Dropout(0.5))
 model.add(Dense(6, activation='softmax', name='dense_4'))
 
 model.summary()
