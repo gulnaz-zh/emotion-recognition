@@ -33,7 +33,7 @@ model.add(Dropout(0.5))
 model.add(Flatten())
 model.add(Dense(128, kernel_initializer='random_uniform', activation='relu'))
 model.add(Dropout(0.5))
-model.add(Dense(3, kernel_initializer='random_uniform'))
+model.add(Dense(4, kernel_initializer='random_uniform'))
 model.add(Activation('softmax'))
 model.compile(loss = 'categorical_crossentropy', optimizer = 'SGD', metrics = ['accuracy'])
 
