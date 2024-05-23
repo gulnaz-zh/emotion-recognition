@@ -1,4 +1,4 @@
-# emotion-recognition
+# emotion-recognition-bias
 
 emotion_mlp.ipynb provides code for MLP evaluations based on preprocessed data. Before running it, several steps should be accomplished:
   - preprocess.py provides predictions of VGG16, 3D CNN for micro expression and fine-tuned 3D CNN models.
