@@ -11,3 +11,15 @@ emotion_mlp.ipynb provides code for MLP evaluations based on preprocessed data. 
  
  For any dataset evaluation, dataset should be arranged as shown in the dataset folder.
 
+The code is for:
+
+@article{lukac2023study,
+  title={Study on emotion recognition bias in different regional groups},
+  author={Lukac, Martin and Zhambulova, Gulnaz and Abdiyeva, Kamila and Lewis, Michael},
+  journal={Scientific Reports},
+  volume={13},
+  number={1},
+  pages={8414},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
